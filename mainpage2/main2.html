@@ -19,93 +19,23 @@
             <li class="login"><a href="#">로그인/회원가입</a></li>
         </ul>
     </nav>
-
-        <table class=calendar>
-            <div class="calendar_top">
-                <div class="nickname_title">
-                    <div class="nickname1">유저닉네임1</div>
-                    <div class="heart">♥</div>
-                    <div class="nickname2">유저닉네임2</div>
-                </div>
-                <span class="month">6월</span>
-                <div class="ward">
-                    <img class="backward" src="../image/backward.png" width="18px" height="32px">
-                    <img src="../image/forward.png" width="18px" height="32px">
-                </div>
+    <div class="root">
+    <div class="hello">반갑습니다. (닉네임) 님!</div>
+    <img src="../image/logo_black.png" width="288px" height="122px">
+    <div class="require">서비스를 이용하기 위해서는<br>
+        연인의 닉네임과 두 분의 연애 시작일이 필요해요.</div>
+        <form action="./main2.html" id="login-form">
+            <div class="submit_wrapper">
+                <input type="text" name="nickname" placeholder="상대방의 닉네임을 입력하세요." required>
+                <input type="date" name="date" placeholder="상대방과의 연애 시작일을 입력하세요" required>
             </div>
-            <thead>
-                <th class="sunday">Sunday</th>
-                <th>Monday</th>
-                <th>Tuesday</th>
-                <th>Wednesday</th>
-                <th>Thursday</th>
-                <th>Friday</th>
-                <th class="saturday">Saturday</th>
-            </thead>
-            <tbody>
-
-                <tr>
-                    <td class="sunday">1</td>
-                    <td>2
-                        <div class="emotion">
-                            <img src="../image//flutter.png" width="40px" height="38px">
-                            <img src="../image//flutter.png" width="40px" height="38px">
-                        </div>
-                    </td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>6</td>
-                    <td class="saturday">7</td>
-                </tr>
-
-                <tr>
-                    <td class="sunday">8</td>
-                    <td>9</td>
-                    <td>10</td>
-                    <td>11
-                        <div class="emotion">
-                            <img src="../image//happy.png" width="40px" height="38px">
-                        </div>
-                    </td>
-                    <td>12</td>
-                    <td>13</td>
-                    <td class="saturday">14</td>
-                </tr>
-
-                <tr>
-                    <td class="sunday">15</td>
-                    <td>16</td>
-                    <td>17</td>
-                    <td id="today">18 today</td>
-                    <td>19</td>
-                    <td>20</td>
-                    <td class="saturday">21</td>
-                </tr>
-
-                <tr>
-                    <td class="sunday">22</td>
-                    <td>23</td>
-                    <td>24</td>
-                    <td>25</td>
-                    <td>26</td>
-                    <td>27</td>
-                    <td class="saturday">28</td>
-                </tr>
-
-                <tr>
-                    <td class="sunday">29</td>
-                    <td>30</td>
-                    <td>31</td>
-                    <td colspan="4"></td>
-                </tr>
-            </tbody>
-        </table>
-        
-        <div class="calendar_bottom">
-            000일 째, 사랑 중♡
-        </div>
-
+            <div class="submit_button">
+                <input type="submit" value="제출하기">
+            </div>
+        </form>
+    <div class="notice">*잘못 제출한 경우 마이페이지에서 재제출 해주세요.</div>
+    <div class="content">마음이음에서 나도 몰랐던 내 마음과 연인의 마음을 알아보세요!</div>
+</div>
     <!-- footer -->
     <div class="wrapper"></div>
     <footer>
