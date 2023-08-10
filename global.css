@@ -1,0 +1,44 @@
+body {
+    background: #FCFCFC;
+    margin: 0 auto;
+}
+
+.root {
+    display: flex;
+    height: 100vh; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+li {
+	list-style-type: none;
+	list-style: none;
+    padding-right: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* nav바 */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 67px;
+    background-color: #F0E3F8;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'GangwonEduAll';
+    font-size: 20px;
+    color: #000000;
+}
+
+.navbar__menu {
+    display: flex;
+    flex-direction: row;
+    color: #000000;
+}
