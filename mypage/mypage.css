@@ -1,0 +1,17 @@
+.root {
+    font-family: 'GangwonEduAll';
+}
+
+.mypage {
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 800px;
+    padding-bottom: 30px;
+}
+
+.nickname {
+    color: #89029C;
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 800px;
+}
