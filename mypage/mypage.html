@@ -20,10 +20,37 @@
         </ul>
     </nav>
     
-    <div class="root">
         <div class="mypage">마이페이지</div>
         <div class="nickname">(닉네임)님</div>
+        <div class="out">회원탈퇴</div>
+
+    <div class="root">
+        <div class="pwChange">비밀번호 변경</div>
+        <div class="new_pw">
+            <div class="new_pw_title">새로운 비밀번호</div>
+            <input type="password" name="password" placeholder="영어+숫자 6자 이상" required>
+        </div>
+        <div class="new_pw_cf">
+            <div class="new_pw_title_cf">새로운 비밀번호 확인</div>
+            <input type="password" name="password_cf" placeholder="영어+숫자 6자 이상" required>
+            <button class="pw_button">변경하기</button>
+        </div>
+
+        <div class="coupleConnection">연인 연결</div>
+        <div class="coupleConnection_title">
+            <div class="connection">연인 연결</div>
+            <input type="text" name="nickname" placeholder="상대방의 닉네임을 입력하세요." required>
+        </div>
+        <div class="coupleConnection_content">
+            <input type="date" name="date" placeholder="상대방과의 연애 시작일을 선택하세요." required>
+            <button class="couple_button">제출하기</button>
+        </div>
+        <div class="new_pw">
+            <div class="new_pw_title">연인 연결 해지</div>
+            <button class="couple_end">연결 해지</button>
+        </div>
     </div>
+
 
     <!-- footer -->
     <div class="wrapper"></div>
